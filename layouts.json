@@ -1,5 +1,5 @@
-{   "__comment__": "Topology layouts for IBM Quantum systems.  If the name is not a keyword then 'generic' is used instead.",
-    
+{   "__comment__": "Topology layouts for IBM Quantum systems.  If the name is not a keyword then 'generic' is used instead. Apache License 2.0",
+
     "special_names" : {"ibmqx2": "bowtie",
                     "ibmq_athens": "linear",
                     "ibmq_bogota": "linear",
@@ -12,10 +12,10 @@
                     "ibmq_valencia": "cross",
                     "ibmq_vigo": "cross"
                       },
-    
+
     "layouts" : {
             "1" : {"generic": [[0, 0]]},
-            
+
             "5" : {"bowtie": [[1, 0], [0, 1], [1, 1], [1, 2], [2, 1]],
                    "linear": [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]],
                    "cross": [[0, 0], [0, 1], [0, 2], [1, 1], [2, 1]],
